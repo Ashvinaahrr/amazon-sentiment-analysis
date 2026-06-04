@@ -24,7 +24,7 @@ st.markdown("Analyze customer sentiment using ML & AI models")
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("amazon-fine-food-reviews/Reviews.csv")
+    df = pd.read_csv("amazon-fine-food-reviews/Reviews_sample.csv")
 
     df = df[df["Text"].notna() & df["Score"].notna()].copy()
 
