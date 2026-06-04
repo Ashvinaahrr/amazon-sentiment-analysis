@@ -1,0 +1,24 @@
+# Data files (keep locally, don't push to GitHub)
+Reviews.csv
+Reviews_sample.csv
+amazon-fine-food-reviews/
+amazon-fine-food-reviews.zip
+database.sqlite
+*.csv
+
+# Virtual environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+.env
